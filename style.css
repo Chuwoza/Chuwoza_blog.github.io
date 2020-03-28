@@ -6,3 +6,104 @@ body {
 	background-image: url(images/patt.png);
 	/*background-repeat: no-repeat;*/
 }
+}
+h1 {
+	font-size: 36px;
+	font-weight: 500;
+	color:#fff;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 500;
+	color:#fff;
+}
+h3{
+	font-size: 24px;
+	font-weight: 300;
+	color:#fff;
+}
+h4{
+	font-size: 20px;
+	font-weight: 300;
+	color:#
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	border: 1px solid #fff;
+}
+.col-md-1 {
+	width: 8.333%;
+	position:relative;
+}
+.col-md-2 {
+	width: 16.6666667%;
+	position:relative;
+}
+.col-md-3 {
+	width: 25%;
+	position:relative;
+}
+.col-md-4 {
+	width: 33.333334%;
+	position:relative;
+}
+.col-md-6 {
+	width: 50%;
+	position:relative;
+}
+.col-md-7 {
+	width: 58.33333333333333%;
+	position:relative;
+}
+.col-md-8 {
+	width: 66.666667%;
+	position:relative;
+}
+.col-md-9 {
+	width: 75%;
+	position:relative;
+}
+.col-md-12 {
+	width: 100%;
+	position:relative;
+}
+[class*="col-"] {
+	float: left;
+}
+.row:after,.menu:after,.submenu:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*Как лучше сделать? Eсли все должно быть посередине, а ширина блока 80рх*/
+header {
+	background-color: #1d2126;
+	line-height: 80px; 
+/*	padding: 35px 0;*/     
+}
+.logo {
+	display:block;
+	text-transform: uppercase; /* Заглавные буквы */
+	font-weight: bold;
+}
+.logo a {
+	text-decoration: none;
+	color: #fff;
+}
+.menu li {
+	width: 14.2857%;
+	float: left;
+}
+.menu a {
+	display: block;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	color: #a4aead;
+}
+.menu li :hover {
+	padding: 7px 10px;
+	border: 1px solid #23b7a4;
+	color: #23b7a4;
+}
